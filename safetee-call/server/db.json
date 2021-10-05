@@ -1,0 +1,60 @@
+{
+  "guardians": [
+    {
+      "id": 1,
+      "username": "john",
+      "email": "johndoe@hotmail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "male",
+      "address": "Av. Americas 100"
+    },
+    {
+      "id": 2,
+      "username": "jane",
+      "email": "janedoe@hotmail.com",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "gender": "female",
+      "address": "Av. Americas 200"
+    }
+  ],
+  "urgencies": [
+    {
+      "id": 1,
+      "guardianId": 1,
+      "title": "1",
+      "summary": "1",
+      "latitude": "1",
+      "longitude": "1",
+      "reportAt": "1"
+    },
+    {
+      "id": 2,
+      "guardianId": 1,
+      "title": "2",
+      "summary": "2",
+      "latitude": "2",
+      "longitude": "2",
+      "reportAt": "2"
+    },
+    {
+      "id": 4,
+      "guardianId": 2,
+      "title": "4",
+      "summary": "4",
+      "latitude": "4",
+      "longitude": "4",
+      "reportAt": "4"
+    },
+    {
+      "id": 5,
+      "guardianId": 2,
+      "title": "5",
+      "summary": "5",
+      "latitude": "5",
+      "longitude": "5",
+      "reportAt": "5"
+    }
+  ]
+}
